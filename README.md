@@ -11,7 +11,6 @@
 
 ---
 
-效果图
-![](http://i3.piimg.com/03360a1229ce0405.gif)
+[详细使用方法及请至我的简书查看](http://www.jianshu.com/p/3b285eee9a91)
 
 
