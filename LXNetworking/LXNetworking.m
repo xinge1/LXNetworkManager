@@ -252,7 +252,7 @@ static NSMutableArray *tasks;
     LXURLSessionTask *sessionTask = nil;
     
     sessionTask = [manager downloadTaskWithRequest:downloadRequest progress:^(NSProgress * _Nonnull downloadProgress) {
-        DLog(@"下载进度--%.2f",1.0 * downloadProgress.completedUnitCount/downloadProgress.totalUnitCount);
+        DLog(@"下载进度--%.1f",1.0 * downloadProgress.completedUnitCount/downloadProgress.totalUnitCount);
         //回到主线程刷新UI
         dispatch_async(dispatch_get_main_queue(), ^{
             if (progressBlock) {
